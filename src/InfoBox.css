@@ -1,0 +1,19 @@
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin: 1rem auto;
+  max-width: 400px;
+  width: 90%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid black;
+}
+
+.infoBox:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
